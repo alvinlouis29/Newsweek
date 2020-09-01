@@ -1,0 +1,12 @@
+linters:
+  stylelint:
+    config: "stylelint.config.js"
+    fixer: true
+
+files:
+  ignore:
+    - "reset.css"
+
+fixers:
+  enable: true
+  workflow: "commit"
