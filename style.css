@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+  }
+
+  ul ,
+  li {
+    list-style: none;
+  }
+
+/*
+=============================================================================
+
+                            HEADER
+
+=============================================================================
+*/
+  input[type="text"] {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    color:transparent;
+    cursor:default;
+    border: none;
+    outline: none;
+  }
+
+.search-bar .enter {
+    right: initial;
+    left: 0;
+    color: #ccc;
+}
+
+.search-bar .searching {
+    padding-right: 12px;
+    padding-left: 34px;
+}
