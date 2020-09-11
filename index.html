@@ -1,203 +1,879 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Newsweek</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"rel="stylesheet"/>
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <div class="container">
-        <header class="tile">
-            <div class="top">
-                <div class="logo">
-                    <a class="logo-icon" href="https://www.newsweek.com">
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
-                    <path class="st0"
-                     d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
-                    </g></svg>
-                    </a>
-                 </div>
-                 <div class="user">   
-                    <a class="user-icon" href="https://www.newsweek.com">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path d="M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z"/>
-                        </svg>
-                    </a> 
-                    <button>Subscribe</button>
-                    <a href="header bottom">
-                        <svg viewBox="0 0 100 80" width="40" height="40">
-                        <rect width="100" height="20"></rect>
-                        <rect y="30" width="100" height="20"></rect>
-                        <rect y="60" width="100" height="20"></rect>
-                      </svg></a>
-                    
-               </div>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body >
+    <!--
+    <nav class=" navbar" >
+      <div class="row">
+        <a href="#" class="">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+        </a>
+        <div class="col">
+          <div class="row">
+            <a class="text-decoration-none" href="#">Sign in</a>
+            <a id="subscribe-btn" class=" text-decoration-none"  href="#">Subscribe <i class="fas fa-chevron-right pl-1"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+              <span class="navbar-toggler-icon" ></span>
+            </button>
+            <div class="" id="">
+              <ul id="" class="" >
+                <li>
+                  <form class="" action="#">
+                    <input class="" type="text" placeholder="Search" />
+                  </form>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">U.S.</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">World</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Business</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Business</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Tech & Science</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Culture</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Newsgeek</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Health</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Opinion</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Vantage</a>
+                </li>
+              </ul>
             </div>
-               <!--  
-               <nav class="header-bottom">
-                    <div class="form-group search-bar">
-                        <input type="text" class="searching" placeholder="Search">
-                        <span class="glyphicon glyphicon-search enter"></span>
-                      </div>
-                     <ul>
-                        <li><a class="" href="#"><span></span>U.S.</a></li>
-                        <li><a class="" href="#"><span></span>World </a></li>
-                        <li><a class="" href="#"><span></span>Business</a></li>
-                        <li><a class="" href="#"><span></span>Tech & Science</a></li>
-                        <li><a class="" href="#"><span></span> Culture</a></li>
-                        <li><a class="" href="#"><span></span> Newsgeek</a></li> 
-                        <li><a class="" href="#"><span></span>Sports </a></li>
-                        <li><a class="" href="#"><span></span>Health </a></li>
-                        <li><a class="" href="#"><span></span> The Debate</a></li>
-                        <li><a class="" href="#"><span></span> Vantage</a></li>
-                        <li><a class="" href="#"><span></span> Weather </a></li>
-                    </ul>
-                    <div class = "trending">
-                        <ul>
-                            <li><a class="" href="#"><span></span>Trending </a></li>
-                            <li><a class="" href="#"><span></span>Donald Trump </a></li>
-                            <li><a class="" href="#"><span></span> Joe Biden</a></li>
-                            <li><a class="" href="#"><span></span> China</a></li>
-                            <li><a class="" href="#"><span></span> Coronavirus </a></li>
-                            <li><a class="" href="#"><span></span> 2020 Election</a></li>
-                        </ul>
-                    </div> 
-            </nav>
-            --> 
-        </header>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col1">
-                        <div class="block-title">
-                            Featured Stories</div>
-
+          </div>
+        </div>
+      </div>
+    </nav>
+    --> 
+    <div class="container-fluid">
+      <header id="scrolling-header" class="">
+        <div class=" ">
+          <div class="">Thu, Oct 10, 2019</div>
+          <a href="#" class="">
+            <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+              <g>
+                <path class="st0"
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                </path>
+              </g>
+            </svg>
+          </a>
+          <div class="header-buttons">
+            <a class=" text-white" href=" #">SIGN IN</a>
+            <a class=" text-decoration-none" id="subscribe-btn" href=" #">
+              SUBSCRIBE
+            </a>
+          </div>
+        </div>
+    
+        <nav class="d-flex">
+          <div class="row">
+            <ul class="">
+              <li class="nav-item"> <a class="nav-link" href=" #">U.S.</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">World</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Business</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Tech &amp; Science</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Culture</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Newsgeek</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Sports</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Health</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Opinion</a>
+              </li>
+              <li class="nav-item"> <a class="nav-link" href=" #">Vantage</a>
+              </li>
+              <li>
+                <form class="">
+                  <input class="" type="text" placeholder="Search" />
+                </form>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div class="container-fluid">
+        <div class="colwrap row sticky-scroll">
+            <div class="col-lg-9 col-md-12 " >
+            <div class="row">
+                <div class="col-lg-5 col-md-5 order-2 order-md-1 position-relative story-left-1">
+                <div id="sticky1">
+                    <div class="block-title">
+                            FEATURED STORIES
+                        </div>
                         <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">U.S.</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
+                        <div>
+                        <div><a href="#">Analysis</a></div>
+                        <div> </div>
+                        </div>
+                        <h3><a href="#">Elizabeth Warren's Fake Facebook Ad Is Latest Fight Against Mark Zuckerberg </a></h3>
+                        <div>Warren has repeatedly targeted Facebook and its CEO in her battle against Big Tech, reinforcing her role as a David confronting capitalist Goliaths.</div>
                         </article>
+                        <article>
+                        <div>
+                        <div><a href="#">Analysis</a></div>
+                        <div> </div>
+                        </div>
+                        <h3><a href="#">Elizabeth Warren's Fake Facebook Ad Is Latest Fight Against Mark Zuckerberg </a></h3>
+                        <div>Warren has repeatedly targeted Facebook and its CEO in her battle against Big Tech, reinforcing her role as a David confronting capitalist Goliaths.</div>
+                        </article>
+                        <article>
+                        <div>
+                        <div><a href="#">Analysis</a></div>
+                        <div> </div>
+                        </div>
+                        <h3><a href="#">Elizabeth Warren's Fake Facebook Ad Is Latest Fight Against Mark Zuckerberg </a></h3>
+                        <div>Warren has repeatedly targeted Facebook and its CEO in her battle against Big Tech, reinforcing her role as a David confronting capitalist Goliaths.</div>
+                        </article>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div id="sticky2">
+                        <div class="flex-sm ">
+                            <div class="featured-story ">
+                            <div class="block-title">
+                                Top Story
+                            </div>
+                    <article>
+                    <div>
+                    <div><a href="#">World</a></div>
+                    <div> </div>
+                    </div>
+                    <h2><a href="#">Exclusive: U.S. Cedes Syrian City to Russia in Battlefield 'Handover' </a></h2>
+                    <div>The U.S. "has been assisting the Russian forces to navigate through previously unsafe areas quickly," a senior Pentagon official told Newsweek.</div>
+                    <div><a href="#">Trump and Erdogan 'Just Got Played' by Putin, Warns Terrorism Expert </a></div>
+                    </article>
+                    </div>
+                    <div>
+                    <div><a href="#">Culture &amp; Travel</a></div>
+                    <div>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <div><a href="#">Most Beautiful Houses of Worship Around the World </a></div>
+                    <div>From the temples of 15th century Japan to mid-20th century chapels in Arizona, celebrating the spiritual on earth has yielded some truly breathtaking results.</div>
+                    <div><a href="#">Travel</a></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <div><a href="#">Most Beautiful Houses of Worship Around the World </a></div>
+                    <div>From the temples of 15th century Japan to mid-20th century chapels in Arizona, celebrating the spiritual on earth has yielded some truly breathtaking results.</div>
+                    <div><a href="#">Travel</a></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <div><a href="#">Most Beautiful Houses of Worship Around the World</a></div>
+                    <div>From the temples of 15th century Japan to mid-20th century chapels in Arizona, celebrating the spiritual on earth has yielded some truly breathtaking results.</div>
+                    <div><a href="#">Travel</a></div>
+                    </div>
+                    </div>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <div><a href="#">Most Beautiful Houses of Worship Around the World</a></div>
+                    <div>From the temples of 15th century Japan to mid-20th century chapels in Arizona, celebrating the spiritual on earth has yielded some truly breathtaking results.</div>
+                    <div><a href="#">Travel</a></div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div>MORE STORIES</div>
+                    <article>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <h4><a href="#">Several Trump Officials Face Subpoena Deadlines About Ukraine </a></h4>
+                    <div>Vice President Mike Pence, Defense Secretary Mark Esper and other top administration officials have been called on by Congress to turn over related material.</div>
+                    </div>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <h4><a href="#">Several Trump Officials Face Subpoena Deadlines About Ukraine</a></h4>
+                    <div>Vice President Mike Pence, Defense Secretary Mark Esper and other top administration officials have been called on by Congress to turn over related material.</div>
+                    </div>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <h4><a href="#">Several Trump Officials Face Subpoena Deadlines About Ukraine</a></h4>
+                    <div>Vice President Mike Pence, Defense Secretary Mark Esper and other top administration officials have been called on by Congress to turn over related material.</div>
+                    </div>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <h4><a href="#">Several Trump Officials Face Subpoena Deadlines About Ukraine</a></h4>
+                    <div>Vice President Mike Pence, Defense Secretary Mark Esper and other top administration officials have been called on by Congress to turn over related material.</div>
+                    </div>
+                    </div>
+                    </article>
+                    <article>
+                    <div>
+                    <div> </div>
+                    <div>
+                    <h4><a href="#">Several Trump Officials Face Subpoena Deadlines About Ukraine</a></h4>
+                    <div>Vice President Mike Pence, Defense Secretary Mark Esper and other top administration officials have been called on by Congress to turn over related material.</div>
+                    </div>
+                    </div>
+                    </article>
+                    </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col1">
-                        <div class="block-title">
-                            Top Story</div>
-
-                        <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">World</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">U.S.</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">News</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">Tech & Science</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
-                        </article>
-                        <article>
-                            <div>
-                                <div class="wrap">
-                                    <div class="category">
-                                    <a href="#">Health</a>
-                                    </div>
-                                    <div class="image">
-                                        <img src="img/joe-biden.jpg" alt="US">
-                                    </div>
-                            </div>
-                            <h1>
-                                <a href="#">Biden Campaign Breaks Record for Online Fundraising in August With $364M</a>
-                            </h1>
-                            <div>
-                                "That figure blows me away," Joe Biden said.
-                            </div>
-                        </article>
-                    </div>
-                </div>
             </div>
+            <div class="">
+                    <div class="sticky3">
+                        <div class="opinions">
+                        <div class="block-title">
+                            <a href="#">OPINION</a>
+                        </div>
+                <div>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">With Bolton Gone, It's Time to End Trump's Failed Maximum Pressure Policy</a>
+                <div>By Shahed Ghoreishi</div>
+                </div>
+                </article>
+                </div>
+                </div>
+                <div>
+                <div><a href="/newsfeed">LATEST NEWS</a></div>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                <article>
+                <h4>Hidden</h4>
+                <div> </div>
+                <div><a href="#">Rep. Steve Scalise Confronted Over Alleged Anti-Semitism, White Nationalism</a></div>
+                </article>
+                </div>
+                    </div>
+            </div>
+        </div>
+
+        <section class="magazine-news pt-3">
+                <h4 class="hidden-title">Hidden</h4>
+                    <div class="row ">
+                        <div class="">
+                            <article>
+                            <h4>Hidden</h4>
+                            <div>
+                            <div> </div>
+                            <div><a href="#">October 18 ISSUE</a></div>
+                            </div>
+                            <a href="#">See All Features</a>
+                        </article>
+                            </div>
+                            <div>
+                            <div>IN THE MAGAZINE</div>
+                            <div>
+                            <article>
+                            <div>Hidden</div>
+                            <div> </div>
+                            <div>Cover <a href="#">U.S.</a></div>
+                            <h5><a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him? &gt; </a></h5>
+                            </article>
+                            <article>
+                            <div>Hidden</div>
+                            <div> </div>
+                            <div>Cover <a href="#">U.S.</a></div>
+                            <h5><a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him? &gt; </a></h5>
+                            </article>
+                            <article>
+                            <div>Hidden</div>
+                            <div> </div>
+                            <div>Cover <a href="#">U.S.</a></div>
+                            <h5><a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him? &gt; </a></h5>
+                            </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <article>
+                                    <div>Hidden</div>
+                                    <div> </div>
+                                    <div>Cover <a href="#">U.S.</a></div>
+                                    <h5>
+                                        <a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</a>
+                                    </h5>
+                                </article>
+                                <article>
+                                    <div>Hidden</div>
+                                    <div> </div>
+                                    <div>Cover <a href="#">U.S.</a></div>
+                                    <h5>
+                                        <a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</a>
+                                    </h5>
+                                </article>
+                                <article>
+                                    <div>Hidden</div>
+                                    <div> </div>
+                                    <div>Cover <a href="#">U.S.</a></div>
+                                    <h5>
+                                        <a href="#">'Gleefully Defiant' Trump Spoils for Fight, But Will His Playbook Fail Him?</a>
+                                    </h5>
+                                </article>
+                                <article class="">
+                                    <div class="hidden-title">Hidden</div>
+                                    <div class="wrap">
+                                    <div class="image">
+                                        <a href="#">
+                                        <img src=""  alt="image"  />
+                                        </a>
+                                    </div>
+                                    <div class="category">
+                                        <a href="#">In focus</a>
+                                        </div>
+                                    </div>
+
+                                    <h5> <a href="#">BURN WITH RAGE</a> </h5>
+                                </article> 
+                            </div>
+                        </div>
+                    </div>
         </section>
-    </div> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+
+        <section class="editor-picks">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="n-title flex-xs jc-c ai-c text-center">
+                    <span class="icon-n"></span> EDITOR'S PICK
+                </div>
+                <div class="row">
+                    <article class="col-lg-3 col-md-6 editor-article">
+                        <div class="hidden-title">Hidden</div>
+                        <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                            <img src="" alt="image" />
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Politics</a>
+                            </div>
+                        </div>
+                        <h3>
+                        <a href="#">Historians and Journalists Defend Donald Trump on Ancient Rome Comments</a>
+                        </h3>
+                        <div class="summary">
+                        Neal Katyal said President Donald Trump is trying to "run out the clock" by refusing to comply 
+                        with subpoenas to turn over evidence and witnesses in the impeachment inquiry.
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-6 editor-article">
+                        <div class="hidden-title">Hidden</div>
+                        <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                            <img src="" alt="image" />
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Politics</a>
+                            </div>
+                        </div>
+                        <h3>
+                        <a href="#">Historians and Journalists Defend Donald Trump on Ancient Rome Comments</a>
+                        </h3>
+                        <div class="summary">
+                        Neal Katyal said President Donald Trump is trying to "run out the clock" by refusing to comply 
+                        with subpoenas to turn over evidence and witnesses in the impeachment inquiry.
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-6 editor-article">
+                        <div class="hidden-title">Hidden</div>
+                        <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                            <img src="" alt="image" />
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Politics</a>
+                            </div>
+                        </div>
+                        <h3>
+                        <a href="#">Historians and Journalists Defend Donald Trump on Ancient Rome Comments</a>
+                        </h3>
+                        <div class="summary">
+                        Neal Katyal said President Donald Trump is trying to "run out the clock" by refusing to comply 
+                        with subpoenas to turn over evidence and witnesses in the impeachment inquiry.
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-6 editor-article">
+                        <div class="hidden-title">Hidden</div>
+                        <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                            <img src="" alt="image" />
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Politics</a>
+                            </div>
+                        </div>
+                        <h3>
+                        <a href="#">Historians and Journalists Defend Donald Trump on Ancient Rome Comments</a>
+                        </h3>
+                        <div class="summary">
+                        Neal Katyal said President Donald Trump is trying to "run out the clock" by refusing to comply 
+                        with subpoenas to turn over evidence and witnesses in the impeachment inquiry.
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-6 editor-article">
+                        <div class="hidden-title">Hidden</div>
+                        <div class="wrap">
+                        <div class="image">
+                            <a href="#">
+                            <img src="" alt="image" />
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Politics</a>
+                            </div>
+                        </div>
+                        <h3>
+                        <a href="#">Historians and Journalists Defend Donald Trump on Ancient Rome Comments</a>
+                        </h3>
+                        <div class="summary">
+                        Neal Katyal said President Donald Trump is trying to "run out the clock" by refusing to comply 
+                        with subpoenas to turn over evidence and witnesses in the impeachment inquiry.
+                        </div>
+                    </article>
+                </div>
+        </section>
+
+        <section class="featured-shows">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="">
+                    <span class="icon-n"></span> Featured slideshows
+                </div>
+                <div class="row">
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div>
+                        <div> </div>
+                        <div><a href="#">18</a></div>
+                        </div>
+                        <h3><a href="#">Hailey and Justin Bieber Wedding Pictures: Candid Photos from the Big Day </a></h3>
+                    </article>
+                </div>
+        </section>
+
+        <section class="usa">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="">
+                    <a href="#">U.S.</a>
+                </div>
+                <div class="row">
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3>
+                            <a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen </a>
+                        </h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3>
+                            <a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen </a>
+                        </h3>
+                    </article>
+                    <div>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint </a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint </a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+        <section class="world">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="">
+                    <a href="#">World</a>
+                </div>
+                <div class="row">
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3>
+                            <a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a>
+                        </h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3>
+                            <a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a>
+                        </h3>
+                    </article>
+                    <div>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+        <section class="business">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="">
+                <a href="#">Business</a>
+                </div>
+                <div class="row">
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                    </article>
+                    
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                    </article>
+                    <div>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div>
+                                <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                            </div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div><a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a></div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+        <section class="culture">
+                <h4 class="hidden-title">Hidden</h4>
+                <div class="">
+                    <a href="#">Culture</a>
+                </div>
+                <div class="row">
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                    </article>
+                    <article>
+                        <div>Hidden</div>
+                        <div> </div>
+                        <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                    </article>
+                    <div>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div><a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a></div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div><a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a></div>
+                        </article>
+                        <article>
+                            <h4>Hidden</h4>
+                            <div> </div>
+                            <div><a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a></div>
+                        </article>
+                    </div>
+                </div>
+        </section>
+
+        <section class="sports ">
+                <h4>Hidden</h4>
+                <div><a href="#">Sports</a></div>
+                    <div class="row">
+                        <article>
+                            <div>Hidden</div>
+                            <div> </div>
+                            <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                        </article>
+                        <article>
+                            <div>Hidden</div>
+                            <div> </div>
+                            <h3><a href="#">Off-Duty Officer Seen on Video Pulling a Gun on a Teen</a></h3>
+                        </article>
+                        <div>
+                            <article>
+                                <h4>Hidden</h4>
+                                <div> </div>
+                                    <div>
+                                        <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                                    </div>
+                            </article>
+                            <article>
+                                <h4>Hidden</h4>
+                                <div> </div>
+                                    <div>
+                                        <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                                    </div>
+                            </article>
+                            <article>
+                                <h4>Hidden</h4>
+                                <div> </div>
+                                    <div>
+                                        <a href="#">Fox News Judge Shuts Down Republicans' Impeachment Complaint</a>
+                                    </div>
+                            </article>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="page-footer ">
+                <div>
+                    <div> 
+                        <p>© 2019 Newsweek</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Corrections</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Editorial Guidelines</a></li>
+                                <li><a href="#">Advertise</a></li>
+                                <li><a href="#">Copyright</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Cookie Policy</a></li>
+                                <li><a href="#">Terms of Sale</a></li>
+                                <li><a href="#">Archive</a></li>
+                                <li><a href="#">Announcements</a></li>
+                                <li><a href="#">Consent preferences</a></li>
+                            </ul>
+                        </div>
+                        <div><label><strong>Editions:</strong></label>
+                            <ul>
+                                <li><a href="#">U.S. Edition</a></li>
+                                <li><a href="#">日本</a></li>
+                                <li><a href="#">한국</a></li>
+                                <li><a href="#">Pakistan</a></li>
+                                <li><a href="#">Polska</a></li>
+                                <li><a href="#">România</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+    </div>
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/859eff7750.js"></script>
+  </body>
 </html>
