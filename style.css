@@ -1,14 +1,27 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0rem;
+    padding: 0 20px;
     margin: 0rem;
+    background-color: rgba(165, 165, 165, 0.514)
 }
 
 .container-fluid  {
     display: block;
 }
 
+.main-sect {
+    background-color: white;
+    margin-top: 2px;
+    padding: 20px 50px;
+    }
+    
+
+/*
+==================================================================================================================
+                                    HEADER
+==================================================================================================================
+*/
 .heading {
     margin: 0px;
     padding: 0px;
@@ -17,8 +30,8 @@ body {
 #scrolling-header {
     display: flex;
     flex-direction: column;
-    background-color: gray;
-    margin: 0px;
+    margin:0px;
+    padding: 0px;
 }
 
 .scroll-content {
@@ -29,34 +42,91 @@ body {
     padding: auto;
 }
 
-.d-flex{
-    display:block;
-    width: 100%;
-    margin: 0px;
-}
-
-.row .nav-one {
-    display: flex;
-    background-color: white;
-    flex-direction: row;
+.nav-top {
     padding: 0px;
 }
 
-.row .nav-item {
-    list-style: none;
-    flex-direction: row;
-    background-color: yellow;
+.nav-row {
+    display:flex;
+    background: white;
+    padding:0px;
+    margin-bottom: 2px;
 }
 
-.row .nav-item a{
+.nav-row .nav-one {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav-wor .nav-two {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav-row .nav-item {
+    list-style: none;
+    flex-direction: row;
+    margin-bottom:0px;
+    padding: 10px 0;
+}
+
+.nav-wor .nav-item {
+    list-style: none;
+    flex-direction: row;
+    margin-bottom:0px;
+    padding: 10px 0;
+}
+
+.nav-wor .nav-item a{
+    color:rgb(70, 67, 67);
+    padding-left: 20px;
+    margin: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.nav-wor .nav-item a.navlink {
     color:black;
     padding-left: 20px;
     margin: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 20px;
-    background-color: blanchedalmond;
-    border-left: black solid 2px;
+    font-weight: bold;
 }
 
+.nav-row .nav-item a{
+    color:black;
+    padding-left: 20px;
+    margin: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    border-left: black solid 1px;
+    font-weight: bold;
+}
+
+.nav-row .nav-item  a.nav-ini {
+    color:black;
+    padding-left: Auto 20px ;
+    font-weight: bold;
+    border: none;
+}
+
+.nav-row .nav-item .search-box {
+    margin: 0px 10px ;
+    padding :2px;
+}
 
 .header-buttons {
     margin: auto 10px auto 10px;
@@ -64,14 +134,26 @@ body {
     right: 10%;
 }
 
-.header-buttons a.login {
- padding-right: 30px;
+.header-buttons .login {
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0px 20px;
+    
+}
+
+.header-buttons .sub-button {
+    background-size: cover;
+    background-color: yellow;
+    border: yellow solid 1px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    color: black;
 }
 
 .head-logo {
-     color: white;
+     fill: white;
      margin: auto auto;
-     background-color: yellow;
      width: 400px;
      align-content: center;
  }
