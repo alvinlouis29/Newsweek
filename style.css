@@ -163,3 +163,37 @@ body {
     padding-top:30px ;
     color: white;
  }
+ 
+ /*
+ =============================================================================
+ 
+                Middle Section
+ 
+ =============================================================================
+ */
+
+ .middle {
+    padding: 0px;
+    margin: 0px;
+ }
+
+ /*
+=============================================================================
+ 
+                Magazine Section
+ 
+ =============================================================================
+ */
+
+ .magazine-news {
+     display: flex;
+     flex-direction: column;
+ }
+
+.magazine-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:red ;
+    margin: 0px;
+}
