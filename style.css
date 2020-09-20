@@ -6,6 +6,13 @@ body {
     background-color: rgba(165, 165, 165, 0.514)
 }
 
+ul,
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .container-fluid  {
     display: block;
 }
@@ -173,8 +180,34 @@ body {
  */
 
  .middle {
-    padding: 0px;
-    margin: 0px;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+ }
+
+#sticky1 {
+    background-color: seagreen;
+    position: static;
+    padding: 10px;
+ }
+
+#sticky2 {
+    background-color: seagreen;
+    padding: 10px;
+ }
+ 
+#sticky3 {
+    border: black solid 2px;
+    padding: 10px;
+ }
+
+.opinion {
+    background-color: seagreen;
+    padding: 10px;
+ }
+
+ .newsLatest {
+    background-color: yellow;
+    padding: 10px;
  }
 
  /*
@@ -184,6 +217,15 @@ body {
  
  =============================================================================
  */
+
+.sectTitle {
+    background-color: turquoise;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: rgb(77, 73, 73) solid .5px;
+}
 
  .magazine-news {
      display: flex;
@@ -196,4 +238,48 @@ body {
     width: 100%;
     background-color:red ;
     margin: 0px;
+}
+
+.magazine-content .magazine-one {
+    
+}
+
+
+
+
+/*
+============================================================================================================
+
+                                            footer
+
+============================================================================================================
+*/
+
+footer {
+    display:block;
+    background: white;
+    padding:50px;
+    margin-top: 2px;
+}
+
+.top-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: auto;
+    margin-bottom: 10px;
+    background-color: turquoise;
+}
+
+.foot-logo {
+    fill: red;
+    width: 300px;
+    background-color: turquoise;
+}
+
+.copyright {
+    position: relative;
+    padding: 0px ;
+    margin: 0px 0px 0px 30px;
+    background-color: rgb(64, 224, 104);
 }
