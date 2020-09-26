@@ -225,27 +225,15 @@ li {
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: rgb(77, 73, 73) solid .5px;
-}
-
- .magazine-news {
-     display: flex;
-     flex-direction: column;
- }
-
-.magazine-content {
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    background-color:red ;
-    margin: 0px;
 }
 
-.magazine-content .magazine-one {
-    
+.features {
+    height: 100px;
 }
 
-
-
+.magazine-article {
+}
 
 /*
 ============================================================================================================
