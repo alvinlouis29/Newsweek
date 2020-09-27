@@ -23,7 +23,27 @@ li {
     padding: 20px 50px;
     }
     
+    
+.image a img {
+    width: 100%;
+    height: inherit;
+  }
 
+.stories-more {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-top: 1px solid #ddd;
+  }
+
+
+
+.more-content h4 a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 4px;
+  }
+  
 /*
 ==================================================================================================================
                                     HEADER
