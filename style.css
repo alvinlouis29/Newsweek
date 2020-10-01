@@ -217,14 +217,12 @@ li {
     margin-bottom: 10px;
  }
 
-#sticky1 {
-    background-color: seagreen;
+#sticky1 { 
     position: static;
     padding: 10px;
  }
 
-#sticky2 {
-    background-color: seagreen;
+#sticky2 { 
     padding: 10px;
  }
  
@@ -234,7 +232,6 @@ li {
  }
 
 .opinion {
-    background-color: seagreen;
     padding: 10px;
  }
 
@@ -246,8 +243,7 @@ li {
  =============================================================================
  */
 
-.sectTitle {
-    background-color: turquoise;
+.sectTitle { 
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -283,19 +279,16 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     padding: auto;
-    margin-bottom: 10px;
-    background-color: turquoise;
+    margin-bottom: 10px; 
 }
 
 .foot-logo {
     fill: red;
-    width: 300px;
-    background-color: turquoise;
+    width: 300px; 
 }
 
 .copyright {
     position: relative;
     padding: 0px ;
-    margin: 0px 0px 0px 30px;
-    background-color: rgb(64, 224, 104);
+    margin: 0px 0px 0px 30px; 
 }
