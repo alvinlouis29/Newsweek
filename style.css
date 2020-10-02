@@ -6,6 +6,10 @@ body {
     background-color: rgba(165, 165, 165, 0.514)
 }
 
+a {
+    color: black;
+}
+
 ul,
 li {
     list-style: none;
@@ -242,6 +246,10 @@ li {
  
  =============================================================================
  */
+
+.tytle h3 {
+    color: red;
+}
 
 .sectTitle { 
     text-align: center;
