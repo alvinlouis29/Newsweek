@@ -12,9 +12,19 @@ a {
     color: black;
 }
 
+h5 {
+    color: #353434;
+    font-size: 13px;
+    font: "Roboto Condensed",sans-serif;
+}
+
+h6 {
+    padding: 20px;
+}
+
 h3 {
-    color: black;
-    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
     font: bold "Roboto Condensed",sans-serif;
 }
 
@@ -32,13 +42,14 @@ li {
 .main-sect {
     background-color: white;
     margin-top: 2px;
-    padding: 20px 50px;
+    padding: 20px 20px;
     }
-    
-    
+   
 .image a img {
     width: 100%;
     height: inherit;
+    padding: 0px;
+    margin: 0px;
   }
 
 .stories-more {
@@ -53,7 +64,7 @@ div article {
 
 .more-content h4 a {
     color: black;
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 900;
     line-height: 4px;
   }
@@ -270,6 +281,43 @@ div article {
     z-index: 1;
 }
 
+.editor-picks {
+    padding: 50px;
+}
+
+.my-pick {
+    padding: 20px;
+}
+
+.place {
+    color: #000000;
+}
+
+.place h3 a {
+    color: #000000;
+    font-size: 22px;
+    font: bold "Roboto Condensed",sans-serif;
+}
+
+.place .summary {
+    color: #3b3b3b;
+    font-size: 13px;
+    font: "Roboto Condensed",sans-serif;
+}
+
+.picking .category3 a {
+    display: block;
+    font: bold 12px/11px "Roboto Condensed",sans-serif;
+    color: #10c1f7;
+    text-transform: uppercase;
+    padding: 8px 15px 8px;
+    background-color: rgba(255,255,255,.9);
+    position: absolute;
+    bottom: 177px;
+    left: 0;
+}
+
+
 .cultured-items {
     padding: 10px 0px;
 }
@@ -284,9 +332,24 @@ div article {
     padding-right: 10px;
 }
 
+.more-content h4{
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.more-info {
+    font: 13px "Roboto Condensed",sans-serif;
+}
+
 .opinion {
     padding: 10px;
  }
+
+.block-title {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px #3b3b3b;
+}
 
  /*
 =============================================================================
@@ -314,6 +377,20 @@ div article {
 }
 
 .magazine-article {
+}
+
+span.mag-cat {
+    background-color: #f72210;
+    color: white;
+}
+
+span.cat {
+    background-color:white;
+    color:  #f72210;
+}
+
+.divide {
+ flex-direction: column;
 }
 
 /*
