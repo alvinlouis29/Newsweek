@@ -217,11 +217,14 @@ div article {
 }
 
 .head-logo {
-     fill: white;
      margin: auto auto;
      width: 400px;
      align-content: center;
  }
+
+.head-logo a svg {
+    fill: white;
+}
 
  .date {
     margin: auto 10px auto 10px;
@@ -417,21 +420,17 @@ span.cat {
 */
 
 footer {
-    display:block;
     background: white;
     padding:50px;
     margin-top: 2px;
 }
 
 .top-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     padding: auto;
     margin-bottom: 10px; 
 }
 
-.foot-logo {
+.foot-logo a svg {
     fill: red;
     width: 300px; 
 }
@@ -440,4 +439,9 @@ footer {
     position: relative;
     padding: 0px ;
     margin: 0px 0px 0px 30px; 
+}
+
+.leaf {
+    padding-left: 5px;
+    padding-right: 5px;
 }
