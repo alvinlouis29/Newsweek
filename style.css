@@ -361,6 +361,11 @@ div article {
 
 .tytle h3 {
     color: red;
+    text-align: left;
+    padding: 20px 0 30px 10px;
+    margin-top: 20px;
+    border-top: rgb(77, 73, 73) solid .5px;
+    width: 100%;
 }
 
 .sectTitle { 
@@ -377,6 +382,7 @@ div article {
 }
 
 .magazine-article {
+    padding: 5px;
 }
 
 span.mag-cat {
@@ -391,6 +397,15 @@ span.cat {
 
 .divide {
  flex-direction: column;
+}
+
+.hind {
+    padding: 10px;
+}
+
+.trade {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 /*
