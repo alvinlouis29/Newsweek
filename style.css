@@ -140,7 +140,7 @@ div article {
 .nav-row .nav-item {
   list-style: none;
   flex-direction: row;
-  margin-bottom0;
+  margin-bottom:0;
   padding: 10px 0;
 }
 
