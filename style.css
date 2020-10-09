@@ -436,12 +436,12 @@ footer {
 }
 
 .copyright {
-    position: relative;
-    padding: 0px ;
-    margin: 0px 0px 0px 30px; 
+  position: relative;
+  padding: 0px ;
+  margin: 0px 0px 0px 30px; 
 }
 
 .leaf {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
