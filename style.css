@@ -2,9 +2,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 20px;
-  margin: 0rem;
+  margin: 0;
   background-color: rgba(165, 165, 165, 0.363);
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
@@ -14,7 +14,7 @@ a {
 
 h5 {
   color: #353434;
-  font: "Roboto Condensed",sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
@@ -24,15 +24,16 @@ h6 {
 
 h3 {
   color: rgb(0, 0, 0);
-  font: bold "Roboto Condensed",sans-serif;
+  
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
 }
 
 ul,
 li {
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding:0;
+  margin:0;
 }
 
 .container-fluid  {
@@ -48,354 +49,354 @@ li {
 .image a img {
   width: 100%;
   height: inherit;
-  padding: 0px;
-  margin: 0px;
+  padding:0;
+  margin:0;
 }
 
 .stories-more {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-top: 1px solid #ddd;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
   }
 
 div article {
-    display: block;
+  display: block;
 }
 
 .more-content h4 a {
-    color: black;
-    font-size: 14px;
-    font-weight: 900;
-    line-height: 4px;
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 4px;
   }
   
   .headshot {
-    width: 120px;
-    height: 100%;
+  width: 120px;
+  height: 100%;
   }
 
   .info a {
-    display: inline-block;
-    padding-left: 6px;
-    padding-right: 6px;
-    margin-right: 6px;
-    margin-bottom: 6px;
-    color: #272727;
+  display: inline-block;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  color: #272727;
   }
 /*
 ==================================================================================================================
-                                    HEADER
+                  HEADER
 ==================================================================================================================
 */
 .heading {
-    margin: 0px;
-    padding: 0px;
+  margin:0;
+  padding:0;
 }
 
 #scrolling-header {
-    display: flex;
-    flex-direction: column;
-    margin:0px;
-    padding: 0px;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
 }
 
 .scroll-content {
-    background-color: red;
-    height: 100px;
-    display: flex;
-    min-width: 100%;
-    padding: auto;
+  background-color: red;
+  height: 100px;
+  display: flex;
+  min-width: 100%;
+  padding: auto;
 }
 
 .nav-top {
-    padding: 0px;
+  padding:0;
 }
 
 .nav-row {
-    display:flex;
-    background: white;
-    padding:0px;
-    margin-bottom: 2px;
+  display:flex;
+  background: white;
+  padding:0;
+  margin-bottom: 2px;
 }
 
 .nav-row .nav-one {
-    display: flex;
-    background-color: white;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  margin:0;
+  padding:0;
 }
 
 
 .nav-wor .nav-two {
-    display: flex;
-    background-color: white;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  margin:0;
+  padding:0;
 }
 
 
 .nav-row .nav-item {
-    list-style: none;
-    flex-direction: row;
-    margin-bottom:0px;
-    padding: 10px 0;
+  list-style: none;
+  flex-direction: row;
+  margin-bottom0;
+  padding: 10px 0;
 }
 
 .nav-wor .nav-item {
-    list-style: none;
-    flex-direction: row;
-    margin-bottom:0px;
-    padding: 10px 0;
+  list-style: none;
+  flex-direction: row;
+  margin-bottom0;
+  padding: 10px 0;
 }
 
 .nav-wor .nav-item a{
-    color:rgb(70, 67, 67);
-    padding-left: 20px;
-    margin: 2px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    font-weight: bold;
+  color:rgb(70, 67, 67);
+  padding-left: 20px;
+  margin: 2px;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .nav-wor .nav-item a.navlink {
-    color:black;
-    padding-left: 20px;
-    margin: 2px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    font-weight: bold;
+  color:black;
+  padding-left: 20px;
+  margin: 2px;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .nav-row .nav-item a{
-    color:black;
-    padding-left: 20px;
-    margin: 2px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 20px;
-    border-left: black solid 1px;
-    font-weight: bold;
+  color:black;
+  padding-left: 20px;
+  margin: 2px;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right: 20px;
+  border-left: black solid 1px;
+  font-weight: bold;
 }
 
 .nav-row .nav-item  a.nav-ini {
-    color:black;
-    padding-left: Auto 20px ;
-    font-weight: bold;
-    border: none;
+  color:black;
+  padding-left: Auto 20px ;
+  font-weight: bold;
+  border: none;
 }
 
 .nav-row .nav-item .search-box {
-    margin: 0px 10px ;
-    padding :2px;
+  margin:0 10px ;
+  padding :2px;
 }
 
 .header-buttons {
-    margin: auto 10px auto 10px;
-    padding-top:30px ;
-    right: 10%;
+  margin: auto 10px auto 10px;
+  padding-top:30px ;
+  right: 10%;
 }
 
 .header-buttons .login {
-    text-decoration: none;
-    font-weight: bolder;
-    padding: 0px 20px;
-    
+  text-decoration: none;
+  font-weight: bolder;
+  padding:0 20px;
+  
 }
 
 .header-buttons .sub-button {
-    background-size: cover;
-    background-color: yellow;
-    border: yellow solid 1px;
-    border-radius: 30px;
-    padding: 5px 10px;
-    font-weight: bolder;
-    color: black;
+  background-size: cover;
+  background-color: yellow;
+  border: yellow solid 1px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  color: black;
 }
 
 .head-logo {
-     margin: auto auto;
-     width: 400px;
-     align-content: center;
+   margin: auto auto;
+   width: 400px;
+   align-content: center;
  }
 
 .head-logo a svg {
-    fill: white;
+  fill: white;
 }
 
  .date {
-    margin: auto 10px auto 10px;
-    padding-top:30px ;
-    color: white;
+  margin: auto 10px auto 10px;
+  padding-top:30px ;
+  color: white;
  }
  
  /*
  =============================================================================
  
-                Middle Section
+        Middle Section
  
  =============================================================================
  */
 
  .middle {
-    padding-bottom:10px;
-    margin-bottom: 10px;
+  padding-bottom:10px;
+  margin-bottom: 10px;
  }
 
 .feature .wrap {
-    position: relative;
-    min-height: 33px;
-    margin-bottom: 10px;
+  position: relative;
+  min-height: 33px;
+  margin-bottom: 10px;
 }
 
 .feature article {
-    padding-bottom: 8px;
-    margin-bottom: 10px;
-    border-bottom: #444343c5 1px solid;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border-bottom: #444343c5 1px solid;
 }
 
 
  .feature .category a {
-    display: block;
-    font: bold 17px/16px "Roboto Condensed",sans-serif;
-    color: #f72210;
-    text-transform: uppercase;
-    padding: 8px 15px 9px;
-    background-color: rgba(255,255,255,.9);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+  display: block;
+  font: bold 17px/16px Arial, Helvetica,sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .feature .category2 a {
-    display: block;
-    font: bold 12px/11px "Roboto Condensed",sans-serif;
-    color: #10c1f7;
-    text-transform: uppercase;
-    padding: 4px 15px 4px;
-    background-color: rgba(255,255,255,.9);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
+  display: block;
+  font: bold 12px/11px Arial, Helvetica,sans-serif;
+  color: #10c1f7;
+  text-transform: uppercase;
+  padding: 4px 15px 4px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
 
 .editor-picks {
-    padding: 50px;
+  padding: 50px;
 }
 
 .my-pick {
-    padding: 20px;
+  padding: 20px;
 }
 
 .place {
-    color: #000000;
+  color: #000000;
 }
 
 .place h3 a {
-    color: #000000;
-    font-size: 22px;
-    font: bold "Roboto Condensed",sans-serif;
+  color: #000000;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .place .summary {
-    color: #3b3b3b;
-    font-size: 13px;
-    font: "Roboto Condensed",sans-serif;
+  color: #3b3b3b;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .picking .category3 a {
-    display: block;
-    font: bold 12px/11px "Roboto Condensed",sans-serif;
-    color: #10c1f7;
-    text-transform: uppercase;
-    padding: 8px 15px 8px;
-    background-color: rgba(255,255,255,.9);
-    position: absolute;
-    bottom: 177px;
-    left: 0;
+  display: block;
+  font: bold 12px/11px Arial, Helvetica,sans-serif;
+  color: #10c1f7;
+  text-transform: uppercase;
+  padding: 8px 15px 8px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 177px;
+  left: 0;
 }
 
 
 .cultured-items {
-    padding: 10px 0px;
+  padding: 10px0;
 }
 
 .order-2 {
-    order:2;
+  order:2;
 }
 
 .culture-item {
-    flex: 1;
-    padding-left: 10px;
-    padding-right: 10px;
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .more-content h4{
-    font-size: 17px;
-    line-height: 20px;
+  font-size: 17px;
+  line-height: 20px;
 }
 
 .more-info {
-    font: 13px "Roboto Condensed",sans-serif;
+  font: 13px Arial, Helvetica,sans-serif;
 }
 
 .opinion {
-    padding: 10px;
+  padding: 10px;
  }
 
 .block-title {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    border-bottom: 2px #3b3b3b;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px #3b3b3b;
 }
 
  /*
 =============================================================================
  
-                Magazine Section
+        Magazine Section
  
  =============================================================================
  */
 
 .tytle h3 {
-    color: red;
-    text-align: left;
-    padding: 20px 0 30px 10px;
-    margin-top: 20px;
-    border-top: rgb(77, 73, 73) solid .5px;
-    width: 100%;
+  color: red;
+  text-align: left;
+  padding: 20px 0 30px 10px;
+  margin-top: 20px;
+  border-top: rgb(77, 73, 73) solid .5px;
+  width: 100%;
 }
 
 .sectTitle { 
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: rgb(77, 73, 73) solid .5px;
-    width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: rgb(77, 73, 73) solid .5px;
+  width: 100%;
 }
 
 .features {
-    height: 100px;
+  height: 100px;
 }
 
 .magazine-article {
-    padding: 5px;
+  padding: 5px;
 }
 
 span.mag-cat {
-    background-color: #f72210;
-    color: white;
+  background-color: #f72210;
+  color: white;
 }
 
 span.cat {
-    background-color:white;
-    color:  #f72210;
+  background-color:white;
+  color:  #f72210;
 }
 
 .divide {
@@ -403,42 +404,42 @@ span.cat {
 }
 
 .hind {
-    padding: 10px;
+  padding: 10px;
 }
 
 .trade {
-    margin-bottom: 20px;
-    margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 /*
 ============================================================================================================
 
-                                            footer
+                      footer
 
 ============================================================================================================
 */
 
 footer {
-    background: white;
-    padding:50px;
-    margin-top: 2px;
+  background: white;
+  padding:50px;
+  margin-top: 2px;
 }
 
 .top-footer {
-    padding: auto;
-    margin-bottom: 10px; 
+  padding: auto;
+  margin-bottom: 10px; 
 }
 
 .foot-logo a svg {
-    fill: red;
-    width: 300px; 
+  fill: red;
+  width: 300px; 
 }
 
 .copyright {
   position: relative;
-  padding: 0px ;
-  margin: 0px 0px 0px 30px; 
+  padding:0 ;
+  margin:000 30px; 
 }
 
 .leaf {
