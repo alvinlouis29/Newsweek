@@ -8,6 +8,17 @@ body {
   font-size: 15px;
 }
 
+@media (min-width: 748px) {
+  main {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+.nav-menu {
+  visibility: hidden;
+}
+
 a {
   color: black;
 }
@@ -51,6 +62,10 @@ li {
   height: inherit;
   padding:0;
   margin:0;
+}
+
+.menu-bar {
+  visibility: hidden;
 }
 
 .stories-more {
@@ -161,7 +176,7 @@ div article {
   font-weight: bold;
 }
 
-.nav-wor .nav-item a.navlink {
+.nav-wor .nav-item a.nav_link {
   color:black;
   padding-left: 20px;
   margin: 2px;
@@ -169,6 +184,17 @@ div article {
   padding-bottom:0;
   padding-right: 20px;
   font-weight: bold;
+}
+
+.nav-row .nav-item  a.nav-ini {
+  color:black;
+  padding-left: 20px;
+  margin: 2px;
+  padding-top:0;
+  padding-bottom:0;
+  padding-right: 20px;
+  font-weight: bold;
+  border: none;
 }
 
 .nav-row .nav-item a{
@@ -180,13 +206,6 @@ div article {
   padding-right: 20px;
   border-left: black solid 1px;
   font-weight: bold;
-}
-
-.nav-row .nav-item  a.nav-ini {
-  color:black;
-  padding-left: Auto 20px ;
-  font-weight: bold;
-  border: none;
 }
 
 .nav-row .nav-item .search-box {
@@ -446,3 +465,108 @@ footer {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+/*
+=======================================================
+        tablet size 
+=========================================================
+*/
+
+@media (max-width: 768px) {
+  
+  .scroll-content {
+    height: 50px;
+  }
+
+  .scroll-content .date {
+    visibility: hidden;
+  }
+
+  .scroll-content .head-logo {
+    padding: 10px;
+    position: absolute;
+    left: 20px;
+    width: 200px;
+  }
+
+  .scroll-content .header-buttons {
+    padding: 0px;
+    margin: 10px;
+    position: relative;
+    left: 320px;
+    top: -8px;
+  }
+
+  .scroll-content .icon-1 {
+    padding: 10px;
+  }
+  
+  .scroll-content .icon-menu {
+    color: white;
+  }
+  
+  .nav-top {
+    display: none;
+    visibility: hidden;
+  }
+
+  .menu-bar {
+    visibility: visible;
+    padding: 10px;
+    padding-left : 15px;
+  }
+  
+  .collapse {
+    background-color: #ddd;
+  }
+
+  .button {
+    cursor: pointer;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+}
+
+@media (max-width: 425px) {
+
+  .scroll-content {
+    height: 40px;
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .scroll-content .date {
+    visibility: hidden;
+  }
+
+  .scroll-content .head-logo {
+    padding: 10px;
+    justify-items: flex-start;
+    width: 130px;
+  }
+
+  .scroll-content .header-buttons {
+    position: absolute;
+    width: 300px;
+    left: 160px;
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+  }
+
+  .nav-top {
+    display: none;
+    visibility: hidden;
+  }
+
+  .menu-bar {
+    visibility: visible;
+    padding: 10px;
+  }
+}
+
