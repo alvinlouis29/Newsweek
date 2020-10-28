@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   padding: 0 20px;
   margin: 0;
-  background-color: rgba(165, 165, 165, 0.363);
+  background-color: rgb(0, 165, 165, 165, 0.363);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
@@ -39,7 +39,7 @@ h3 {
   font-size: 17px;
 }
 
-ul, 
+ul,
 li {
   list-style: none;
   padding: 0;
@@ -189,7 +189,7 @@ div article {
   font-weight: bold;
 }
 
-.nav-row .nav-item  a.nav-ini {
+.nav-row .nav-item a.nav-ini {
   color: black;
   padding-left: 20px;
   margin: 2px;
@@ -201,7 +201,7 @@ div article {
 }
 
 .nav-row.nav-item a {
-  color:black;
+  color: black;
   padding-left: 20px;
   margin: 2px;
   padding-top: 0;
@@ -213,7 +213,7 @@ div article {
 
 .nav-row.nav-item.search-box {
   margin: 0 10px;
-  padding :2px;
+  padding: 2px;
 }
 
 .header-buttons {
@@ -226,7 +226,6 @@ div article {
   text-decoration: none;
   font-weight: bolder;
   padding: 0 20px;
-  
 }
 
 .header-buttons.sub-button {
@@ -255,13 +254,13 @@ div article {
   color: white;
 }
 
- /*
+/*
  =============================================================================
 
         Middle Section
 
  =============================================================================
- */
+*/
 
 .middle {
   padding-bottom: 10px;
@@ -285,8 +284,8 @@ div article {
   font: bold 17px/16px Arial, Helvetica, sans-serif;
   color: #f72210;
   text-transform: uppercase;
-  padding: 8px 15px 9px;
-  background-color: rgba(255, 255, 255, .9);
+  padding: 0 8px 15px 9px;
+  background-color: rgb(0, 255, 255, 255, .9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -299,7 +298,7 @@ div article {
   color: #10c1f7;
   text-transform: uppercase;
   padding: 0px 4px 15px 4px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgb(0, 255, 255, 255, .9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -330,18 +329,18 @@ div article {
   color: #10c1f7;
   text-transform: uppercase;
   padding: 0 8px 15px 8px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgb(0, 255, 255, 255, .9);
   position: absolute;
   bottom: 177px;
   left: 0;
 }
 
 .cultured-items {
-  padding: 10px0;
+  padding: 10px;
 }
 
 .order-2 {
-  order:2;
+  order: 2;
 }
 
 .culture-item {
@@ -350,7 +349,7 @@ div article {
   padding-right: 10px;
 }
 
-.more-content h4{
+.more-content h4 {
   font-size: 17px;
   line-height: 20px;
 }
@@ -369,11 +368,11 @@ div article {
   border-bottom: 2px #3b3b3b;
 }
 
- /*
+/*
 =============================================================================
- 
+
         Magazine Section
- 
+
  =============================================================================
  */
 
@@ -382,7 +381,7 @@ div article {
   text-align: left;
   padding: 20px 0 30px 10px;
   margin-top: 20px;
-  border-top: rgb(77, 73, 73) solid.5px;
+  border-top: rgb(0, 77, 73, 73) solid.5px;
   width: 100%;
 }
 
@@ -520,7 +519,7 @@ footer {
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
   
 }
