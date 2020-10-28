@@ -12,7 +12,7 @@ body {
   main {
     margin: auto;
     width: 80%;
-}
+  }
 }
 
 .nav-menu {
@@ -163,8 +163,8 @@ div article {
   padding: 10px 0;
 }
 
-.nav-wor.nav-item a{
-  color:rgb(70, 67, 67);
+.nav-wor.nav-item a {
+  color: rgb(70, 67, 67);
   padding-left: 20px;
   margin: 2px;
   padding-top: 0;
