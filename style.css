@@ -381,7 +381,7 @@ div article {
   text-align: left;
   padding: 20px 0 30px 10px;
   margin-top: 20px;
-  border-top: rgb(77, 73, 73) solid.5px;
+  border-top: rgb(77, 73, 73) solid 0.5px;
   width: 100%;
 }
 
@@ -408,7 +408,7 @@ span.mag-cat {
 }
 
 span.cat {
-  background-color :white;
+  background-color: white;
   color: #f72210;
 }
 
@@ -440,7 +440,7 @@ footer {
 }
 
 .top-footer {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .foot-logo a svg {
@@ -482,7 +482,7 @@ footer {
   }
 
   .scroll-content.header-buttons {
-    padding: 0px;
+    padding: 0;
     margin: 10px;
     position: relative;
     left: 320px;
@@ -505,7 +505,7 @@ footer {
   .menu-bar {
     visibility: visible;
     padding: 10px;
-    padding-left : 15px;
+    padding-left: 15px;
   }
 
   .collapse {
@@ -516,49 +516,46 @@ footer {
     cursor: pointer;
   }
 
- .navbar-toggler-icon {
+  .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
- }
-
+  }
 }
 
 @media (max-width: 425px) {
+  .scroll-content {
+      height: 40px;
+      display: flex;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
 
-.scroll-content {
-    height: 40px;
-    display: flex;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
+  .scroll-content.date {
+      visibility: hidden;
+  }
 
-.scroll-content.date {
-    visibility: hidden;
-}
+  .scroll-content.head-logo {
+      padding: 10px;
+      justify-items: flex-start;
+      width: 130px;
+  }
 
-.scroll-content.head-logo {
-    padding: 10px;
-    justify-items: flex-start;
-    width: 130px;
-}
+  .scroll-content.header-buttons {
+      position: absolute;
+      width: 300px;
+      left: 160px;
+      padding: 0;
+      padding-top: 10px;
+      margin: 0px;
+  }
 
-.scroll-content.header-buttons {
-    position: absolute;
-    width: 300px;
-    left: 160px;
-    padding: 0px;
-    padding-top: 10px;
-    margin: 0px;
-}
+  .nav-top {
+      display: none;
+      visibility: hidden;
+  }
 
-.nav-top {
-    display: none;
-    visibility: hidden;
+  .menu-bar {
+      visibility: visible;
+      padding: 10px;
+  }
 }
-
-.menu-bar {
-    visibility: visible;
-    padding: 10px;
-}
-}
-
