@@ -285,7 +285,7 @@ div article {
   color: #f72210;
   text-transform: uppercase;
   padding: 0 8px 15px 9px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -297,8 +297,8 @@ div article {
   font: bold 12px/11px Arial, Helvetica, sans-serif;
   color: #10c1f7;
   text-transform: uppercase;
-  padding: 0px 4px 15px 4px;
-  background-color: rgba(255, 255, 255, .9);
+  padding: 0 4px 15px 4px;
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -329,7 +329,7 @@ div article {
   color: #10c1f7;
   text-transform: uppercase;
   padding: 0 8px 15px 8px;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   position: absolute;
   bottom: 177px;
   left: 0;
@@ -385,12 +385,12 @@ div article {
   width: 100%;
 }
 
-.sectTitle { 
+.sectTitle {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
-  border-bottom: rgb(77, 73, 73) solid.5px;
+  border-bottom: rgb(77, 73, 73) solid 0.5px;
   width: 100%;
 }
 
@@ -408,12 +408,12 @@ span.mag-cat {
 }
 
 span.cat {
-  background-color:white;
-  color:  #f72210;
+  background-color :white;
+  color: #f72210;
 }
 
 .divide {
- flex-direction: column;
+  flex-direction: column;
 }
 
 .hind {
@@ -440,19 +440,18 @@ footer {
 }
 
 .top-footer {
-  padding: auto;
   margin-bottom: 10px; 
 }
 
 .foot-logo a svg {
   fill: red;
-  width: 300px; 
+  width: 300px;
 }
 
 .copyright {
   position: relative;
   padding: 0;
-  margin: 000 30px; 
+  margin: 000 30px;
 }
 
 .leaf {
@@ -462,66 +461,65 @@ footer {
 
 /*
 =======================================================
-        tablet size 
+        tablet size
 =========================================================
 */
 
 @media (max-width: 768px) {
-  
-.scroll-content {
+  .scroll-content {
     height: 50px;
-}
+  }
 
-.scroll-content.date {
+  .scroll-content.date {
     visibility: hidden;
-}
+  }
 
-.scroll-content.head-logo {
+  .scroll-content.head-logo {
     padding: 10px;
     position: absolute;
     left: 20px;
     width: 200px;
-}
+  }
 
-.scroll-content.header-buttons {
+  .scroll-content.header-buttons {
     padding: 0px;
     margin: 10px;
     position: relative;
     left: 320px;
     top: -8px;
-}
+  }
 
-.scroll-content.icon-1 {
+  .scroll-content.icon-1 {
     padding: 10px;
-}
-  
-.scroll-content.icon-menu {
+  }
+
+  .scroll-content.icon-menu {
     color: white;
-}
-  
-.nav-top {
+  }
+
+  .nav-top {
     display: none;
     visibility: hidden;
-}
+  }
 
-.menu-bar {
+  .menu-bar {
     visibility: visible;
     padding: 10px;
     padding-left : 15px;
-}
-  
-.collapse {
+  }
+
+  .collapse {
     background-color: #ddd;
-}
+  }
 
-.button {
+  .button {
     cursor: pointer;
-}
+  }
 
-.navbar-toggler-icon {
+ .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8, %3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-  
+ }
+
 }
 
 @media (max-width: 425px) {
