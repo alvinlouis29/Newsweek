@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin:0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -71,10 +76,9 @@ li {
   right: 10%;
 }
 
-.header-buttons.login {
+.header-buttons .login {
   text-decoration: none;
   font-weight: bolder;
-  padding: 0 20px;
 }
 
 .header-buttons .sub-button {
@@ -115,13 +119,6 @@ li {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-/*
-=============================================================================
-
-        Magazine Section
-
- =============================================================================
- */
 
  /*
 ============================================================================================================
