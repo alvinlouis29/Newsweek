@@ -356,34 +356,51 @@ li {
 /*
 ============================================================================================================
 
-                      EDITORS PICK
+                      mini sections us | world | bussiness | sports |
 
 ============================================================================================================
 */
 
-/*
-============================================================================================================
+.tytle h3 {
+  color: #c41000;
+}
 
-                      WORLD
+.divide h3 {
+  font-size: 20px;
+  line-height: 22px;
+  position: relative;
+  color: black;
+}
 
-============================================================================================================
-*/
+.divide img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
 
-/*
-============================================================================================================
+.mini img {
+  width: 100px;
+  height:auto;
+  padding-bottom: 5px;
+  object-fit: cover;
+}
 
-                      business
+.feature-mini {
+  font: bold 17px/16px;
+  color: black;
+  margin-bottom: 30px;
+}
 
-============================================================================================================
-*/
+.feature-mini li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
 
-/*
-============================================================================================================
-
-                      sports
-
-============================================================================================================
-*/
+.feature-mini li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
 
 /*
 ============================================================================================================
@@ -395,13 +412,30 @@ li {
 
 footer {
   background: white;
-  padding: 0 50px;
-  margin-top: 2px;
+  padding: 20px;
+  margin-top: 1px;
 }
 
-.foot-logo a svg {
-  fill: red;
-  width: 300px;
+.top-footer {
+  position: relative;
+}
+
+.top-footer .copyright {
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 12px;
+  position: absolute;
+  left: 244px;
+  bottom: 0px;
+}
+
+.top-footer .foot-logo svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 0;
+  fill: #f72210;
 }
 
 
