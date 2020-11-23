@@ -129,7 +129,6 @@ li {
 
 .middle {
   padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .feature .wrap {
@@ -210,6 +209,181 @@ li {
 .more-content .summary{
   display: inline;
 }
+
+/*
+============================================================================================================
+
+                                          MAGAZINE
+
+============================================================================================================
+*/
+
+.magazine-news .wrap {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.magazine-news .magazine-article img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.magazine-news .magazine-article .category a {
+  font: bold 16px/26px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+  background-color: rgba(255,255,255,.9);
+  z-index: 1;
+}
+
+.magazine-news .magazine-article .category2 a {
+  display: block;
+  font: bold 15px/14px Arial, Helvetica, sans-serif;
+  color:  rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  padding: 10px;
+  background-color:rgba(212, 0, 0, 0.9);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 1;
+}
+
+.magazine-news .magazine-article {
+  padding: 10px;
+}
+
+.magazine-news .magazine-article .category .mag-cat {
+  font: bold 15px/14px "Roboto Condensed",sans-serif;
+  color: rgba(255,255,255,.9);
+  text-transform: uppercase;
+  background-color:  #c41000;
+  padding: 2px;
+  padding-right: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.magazine-news .mag-ad .lk {
+  display: block;
+  background-color: #b3b4b4;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.magazine-news .mag-ad .wrap .category a {
+  display: block;
+  font: bold 16px/33px "Roboto Condensed",sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: rgba(255,255,255,.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.magazine-news .n-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.magazine-news .n-title .icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+/*
+============================================================================================================
+
+                      EDITORS PICK
+
+============================================================================================================
+*/
+
+.feature2 .n-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+}
+
+.feature2 .n-title .icon-n {
+  -webkit-flex: none;
+  flex: none;
+  display: block;
+  width: 29px;
+  height: 28px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
+}
+
+
+.feature2 article {
+  padding-bottom: 20px;
+}
+
+.feature2 .wrap {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.feature2 .category a {
+  display: block;
+  font: bold 15px/14px Arial, Helvetica, sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: 1;
+} 
+
+
+/*
+============================================================================================================
+
+                      EDITORS PICK
+
+============================================================================================================
+*/
+
+/*
+============================================================================================================
+
+                      WORLD
+
+============================================================================================================
+*/
+
+/*
+============================================================================================================
+
+                      business
+
+============================================================================================================
+*/
+
+/*
+============================================================================================================
+
+                      sports
+
+============================================================================================================
+*/
 
 /*
 ============================================================================================================
