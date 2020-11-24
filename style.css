@@ -119,6 +119,67 @@ li {
   color: white;
 }
 
+@media screen and (min-width: 992px){
+  .us-nav-wrapper{
+    padding: 0;
+    margin: 0;
+  }
+
+  .us-nav-wrapper .top-nav {
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+  }
+
+  .us-nav-wrapper .top-nav a {
+      display: block;
+  }
+
+  .us-nav-wrapper .top-nav li {
+    border-left-color: #d9d9d9;
+    flex-grow: 1;
+    flex: none;
+    text-align: center;
+    padding: 0 5px 0 10px;
+    text-align: center;
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+
+  .us-nav-wrapper .top-nav li:first-child {
+      border-left-width: 0;
+      padding-left: 0;
+  }
+}
+
+.trend-nav-wrapper {
+  margin-top: 13px;
+}
+
+.trend-nav-wrapper .trend {
+  font: 18px/18px "Roboto Condensed",sans-serif;
+  color: #807f84;
+  display: flex;
+}
+
+.trend-nav-wrapper .trend li {
+  flex: none;
+  text-align: center;
+  padding: 0 0 0 30px;
+}
+
+.trend-nav-wrapper .trend li:first-child {
+  flex: none;
+  text-align: center;
+  padding: 0;
+  color: black;
+}
+
 /*
  =============================================================================
 
@@ -126,6 +187,13 @@ li {
 
  =============================================================================
 */
+.block-title {
+  color: rgba(3,3,3,.4);
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+  padding-top: 10px;
+}
 
 .middle {
   padding-bottom: 10px;
@@ -182,6 +250,23 @@ li {
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+.debate .mdebate {
+  position: relative;
+}
+
+.debate .c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed",sans-serif;
+  text-align: center;
+  margin: 6px auto;
 }
 
 .stories-more {
@@ -253,10 +338,6 @@ li {
   z-index: 1;
 }
 
-.magazine-news .magazine-article {
-  padding: 10px;
-}
-
 .magazine-news .magazine-article .category .mag-cat {
   font: bold 15px/14px "Roboto Condensed",sans-serif;
   color: rgba(255,255,255,.9);
@@ -290,9 +371,27 @@ li {
   z-index: 1;
 }
 
+.magazine-news .magazine-article .category .cat {
+  font: bold 15px/14px "Roboto Condensed",sans-serif;
+  color: #c41000;
+  text-transform: uppercase;
+  background-color:  #dadada;
+  padding: 2px;
+  padding-right: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.magazine-news .feature2 {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 20px;
+}
+
 .magazine-news .n-title {
   font: bold 19px/19px "Roboto Condensed",sans-serif;
-  margin-bottom: 15px;
+  margin: 10px auto 30px 45%;
+  padding: 20px auto;
   text-transform: uppercase;
 }
 
@@ -314,12 +413,19 @@ li {
 ============================================================================================================
 */
 
-.feature2 .n-title {
-  border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 8px;
+.editor-picks .feature2 {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 20px;
 }
 
-.feature2 .n-title .icon-n {
+.editor-picks .n-title {
+  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  margin: 10px auto 30px 45%;
+  padding: 20px auto;
+  text-transform: uppercase;
+}
+
+.editor-picks .n-title .icon-n {
   -webkit-flex: none;
   flex: none;
   display: block;
@@ -328,7 +434,6 @@ li {
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
 }
-
 
 .feature2 article {
   padding-bottom: 20px;
@@ -399,6 +504,11 @@ li {
 .feature-mini li {
   padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.hard {
+  margin-top: 5px;
   border-top: 1px solid #ddd;
 }
 
