@@ -332,6 +332,17 @@ li {
 ============================================================================================================
 */
 
+.feature-mini li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.feature-mini li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
 .magazine-news .wrap {
   position: relative;
   margin-bottom: 5px;
@@ -383,10 +394,10 @@ li {
 .magazine-news .magazine-article .category2 a {
   display: block;
   font: bold 15px/14px Arial, Helvetica, sans-serif;
-  color:  rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
   padding: 10px;
-  background-color:rgba(212, 0, 0, 0.9);
+  background-color: rgba(212, 0, 0, 0.9);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -446,7 +457,7 @@ li {
 .magazine-news .n-title {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin: 10px auto 30px 45%;
-  padding: 20px auto 20px auto;
+  padding: 20px;
   text-transform: uppercase;
 }
 
@@ -476,7 +487,7 @@ li {
 .editor-picks .n-title {
   font: bold 19px/19px "Roboto Condensed", sans-serif;
   margin: 10px auto 30px 45%;
-  padding: 20px auto 20px auto;
+  padding: 20px;
   text-transform: uppercase;
 }
 
@@ -524,17 +535,6 @@ li {
   margin-bottom: 30px;
 }
 
-.feature-mini li:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
-.feature-mini li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 1px solid #ddd;
-}
-
 .hard {
   margin-top: 5px;
   border-top: 1px solid #ddd;
@@ -564,7 +564,7 @@ footer {
   margin-bottom: 12px;
   position: absolute;
   left: 244px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .top-footer .foot-logo svg {
@@ -575,19 +575,3 @@ footer {
   margin-bottom: 0;
   fill: #f72210;
 }
-
-
-/*
-=======================================================
-        tablet  and mobile size
-=========================================================
-*/
-
-@media (max-width: 768px) {
-  
-}
-
-@media (max-width: 425px) {
- 
-}
-
