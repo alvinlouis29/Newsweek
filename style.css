@@ -369,7 +369,7 @@ li {
     width: 300px;
   }
 
-  .header-buttons  {
+  .scroll-content .header-buttons  {
     position: absolute;
     z-index: 1;
     right: 50px;
