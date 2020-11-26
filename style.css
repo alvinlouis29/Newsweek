@@ -636,6 +636,31 @@ li {
   margin-bottom: 5px;
 }
 
+.last-section {
+  margin-top: 1px;
+}
+
+.newsletter {
+  padding: 10px 5px 20px 3px;
+  margin: 4px;
+}
+
+.newsletter h5 {
+  color: #c41000;
+  font: bold 15px arial;
+  padding-top: 10px;
+}
+
+.newsletter .subscribe-content {
+  padding: 20px;
+  background-color: #636060;
+}
+
+.newsletter .newsletter-content {
+  padding: 20px;
+  background-color: #636060;
+}
+
 /*
 ============================================================================================================
 
