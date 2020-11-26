@@ -354,6 +354,43 @@ li {
   object-fit: cover;
 }
 
+@media (max-width: 1024px) { 
+  .scroll-content .date{
+    visibility: hidden;
+  }
+
+  .magazine-news .img {
+    transform: translate(-50%,0%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    max-width: inherit;
+  }
+
+  .divide {
+    margin-top: 20px;
+  }
+
+  .mini {
+    margin-top: 20px;
+  }  
+    
+  .mini img {
+    width: 180px;
+  }
+
+  h5 {
+      font-size: 20px;
+      line-height: 20px;
+  }
+
+  .divide img {
+    width: 100%;
+  }
+}
+
 .mini img {
   width: 100px;
   height: auto;
@@ -538,6 +575,11 @@ li {
 .hard {
   margin-top: 5px;
   border-top: 1px solid #ddd;
+}
+
+.hard .wrap {
+  position: relative;
+  margin-bottom: 5px;
 }
 
 /*

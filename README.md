@@ -5,7 +5,7 @@ Read more about the project detailed description from the [Odin website](https:/
 
 
 _Screenshot_
-![Screenshot of the project](img/screenshot.png)
+![Screenshot of the project](img/project.png)
 
 ## Project Objectives
 
@@ -25,4 +25,4 @@ _Screenshot_
 
 # Authors
 
-- [Alvin Louis](https://github.com/alvinlouis29)
+- [Alvin Louis K Ssegawa](https://github.com/alvinlouis29)
