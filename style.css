@@ -166,6 +166,17 @@ li {
   }
 }
 
+.feature-mini li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.feature-mini li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .trend-nav-wrapper {
   margin-top: 13px;
 }
@@ -331,17 +342,6 @@ li {
 
 ============================================================================================================
 */
-
-.feature-mini li:first-child {
-  border-top: 0;
-  padding-top: 0;
-}
-
-.feature-mini li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 1px solid #ddd;
-}
 
 .magazine-news .wrap {
   position: relative;
