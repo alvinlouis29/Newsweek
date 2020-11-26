@@ -656,9 +656,45 @@ li {
   background-color: #636060;
 }
 
+.newsletter .subscribe-content .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.newsletter .subscribe-content .image .inter {
+  width: 170px;
+  height: 228px;
+}
+
+.newsletter .subscribe-content .image .inter.overlay {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.newsletter .subscribe-content .info {
+  padding-left: 30px;
+}
+
 .newsletter .newsletter-content {
   padding: 20px;
   background-color: #636060;
+}
+
+.newsletter .newsletter-content .image {
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.newsletter .newsletter-content .image .letter-image {
+  width: 170px;
+  height: 228px;
+}
+
+.newsletter .subscribe-content .info {
+  padding-left: 30px;
 }
 
 /*
