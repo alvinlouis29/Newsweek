@@ -364,10 +364,6 @@ li {
 }
 
 @media (max-width: 991px) {
-  .head-logo {
-    width: 300px;
-  }
-
   .header-buttons {
     justify-self: flex-end;
   }
@@ -379,8 +375,14 @@ li {
     padding-top: 10px;
   }
 
+  .scroll-content .head-logo {
+    width: 250px;
+    margin: 0;
+  }
+
   .scroll-content {
     clear: both;
+    position: relative;
     padding: 10px;
   }
 
@@ -398,10 +400,6 @@ li {
 }
 
 @media (max-width: 768px) {
-  .head-logo {
-    width: 200px;
-  }
-
   .header-buttons {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -653,7 +651,9 @@ li {
 
 .newsletter .subscribe-content {
   padding: 20px;
-  background-color: #636060;
+  background-color: #e9e9e9;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .newsletter .subscribe-content .image {
@@ -674,27 +674,53 @@ li {
 }
 
 .newsletter .subscribe-content .info {
-  padding-left: 30px;
+  padding: 40px 20px 0 20px;
+}
+
+.newsletter .subscribe-content .info .subscribe-button{
+  position: relative;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  cursor: pointer;
+  background-color: #f72310;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  border-radius: 3px;
 }
 
 .newsletter .newsletter-content {
-  padding: 20px;
-  background-color: #636060;
+  padding: 0;
+  background-color: #dfdfdf;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .newsletter .newsletter-content .image {
-  position: relative;
-  padding-bottom: 13px;
-  padding-right: 90px;
-}
-
-.newsletter .newsletter-content .image .letter-image {
+  background-size: cover;
+  background-image: url(img/buzz.jpg);
   width: 170px;
-  height: 228px;
+  height: 280px;
+  margin: 0;
 }
 
-.newsletter .subscribe-content .info {
-  padding-left: 30px;
+.newsletter .newsletter-content .info {
+  background-color: rgb(241, 241, 241);
+  padding: 7% 10px 20px 20px;
+  z-index: 1;
+}
+
+.newsletter .newsletter-content .info .signup-button {
+  position: relative;
+  font: bold 15px "Roboto Condensed",sans-serif;
+  cursor: pointer;
+  background-color: #f72310;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 3px;
 }
 
 /*
