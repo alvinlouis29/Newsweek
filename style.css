@@ -72,40 +72,6 @@ li {
   position: sticky;
 }
 
-#top-header {
-  margin: 0;
-  padding: 0;
-}
-
-.scroller {
-  background-color: red;
-  width: 100%;
-  display: flex;
-  height: auto;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  transition: 0.3s;
-}
-
-.scroller .head-logo {
-  width: 300px;
-  margin: 0;
-  padding-left: 10px;
-}
-
-.scroller .header-buttons {
-  position: absolute;
-  z-index: 1;
-  right: 20px;
-  padding-top: 10px;
-}
-
-.scroller .header-buttons .menu {
-  padding-left: 5px;
-}
-
 .trend-nav-wrapper .trend {
   font: 18px/18px "Roboto Condensed", sans-serif;
   color: #807f84;
@@ -127,6 +93,10 @@ li {
   right: 10%;
 }
 
+.header-buttons .user {
+  display: none;
+}
+
 .header-buttons .login {
   text-decoration: none;
   font-weight: bolder;
@@ -137,7 +107,7 @@ li {
   background-color: yellow;
   border: yellow solid 1px;
   border-radius: 30px;
-  padding: 5px 10px;
+  padding: 5px;
   font-weight: bolder;
   color: black;
 }
@@ -400,22 +370,45 @@ li {
 
 @media (max-width: 991px) {
   .header-buttons {
+    display: flex;
+    justify-content: center;
     justify-self: flex-end;
+    padding: 2px;
+    margin: 2px;
   }
+
+  .header-buttons .sub-button {
+    padding: 5px;
+    padding-bottom: 0;
+    margin: 2px;
+  }
+
+  .header-buttons .user {
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-top: 5px;
+  }
+
+  .header-buttons .login {
+    display: none;
+  } 
 
   .scroll-content .header-buttons {
     position: absolute;
-    z-index: 1;
-    right: 50px;
-    padding-top: 10px;
+    right: 0;
+    bottom: -5px;
+    padding: 5px;
   }
 
   .scroll-content .head-logo {
-    width: 250px;
+    width: 210px;
     margin: 0;
   }
 
   .scroll-content {
+    display: flex;
     clear: both;
     position: relative;
     padding: 10px;
@@ -431,6 +424,7 @@ li {
 
   .header-buttons .menu-bar {
     padding-left: 5px;
+    padding-top: 5px;
   }
 }
 
